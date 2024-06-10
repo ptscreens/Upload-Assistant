@@ -7,17 +7,18 @@ config = {
         # -----------------------
 
         "tmdb_api" : "tmdb_api key",
-        "imgbb_api" : "imgbb api key",
+        "ptscreens_api" : "ptscreens_api key",
+	"imgbb_api" : "imgbb api key",
         "ptpimg_api" : "ptpimg api key",
         "lensdump_api" : "lensdump api key",
 
         # Order of image hosts, and backup image hosts
-        "img_host_1": "imgbb",
-        "img_host_2": "ptpimg",
-        "img_host_3": "imgbox",
-	    "img_host_4": "pixhost",
-        "img_host_5": "lensdump",
-
+        "img_host_1": "ptscreens",
+        "img_host_2": "imgbb",
+        "img_host_3": "ptpimg",
+	"img_host_4": "imgbox",
+        "img_host_5": "pixhost",
+        "img_host_6": "lensdump",
 
         "screens" : "6",
         # Enable lossless PNG Compression (True/False)
