@@ -2116,7 +2116,7 @@ class Prep():
                                 web_url = response['data']['url_viewer']
                                 raw_url = response['data']['image']['url']
                             except Exception:
-                                progress.console.print("[yellow]ptscreens failed, trying next image host")
+                                progress.console.print("[yellow]PT Screens failed, trying next image host")
                                 progress.stop()
                                 newhost_list, i = self.upload_screens(meta, screens - i , img_host_num + 1, i, total_screens, [], return_dict)
                         elif img_host == "freeimage.host":
